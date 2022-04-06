@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Game {
-    List<Player> listOfPlayers = new ArrayList<>();
+    private List<Player> listOfPlayers = new ArrayList<>();
 
     public void register(Player player) throws AlreadyRegisteredException {
         if (!listOfPlayers.contains(player)) {
